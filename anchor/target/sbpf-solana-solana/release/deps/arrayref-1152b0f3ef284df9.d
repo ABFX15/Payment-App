@@ -1,0 +1,7 @@
+/Users/adambryant/payment/anchor/target/sbpf-solana-solana/release/deps/libarrayref-1152b0f3ef284df9.rmeta: /Users/adambryant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/Users/adambryant/payment/anchor/target/sbpf-solana-solana/release/deps/libarrayref-1152b0f3ef284df9.rlib: /Users/adambryant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/Users/adambryant/payment/anchor/target/sbpf-solana-solana/release/deps/arrayref-1152b0f3ef284df9.d: /Users/adambryant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/Users/adambryant/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs:

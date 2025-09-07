@@ -1,10 +1,11 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 use anchor_spl::token::{self, Token, TokenAccount, Mint, Transfer as SplTransfer};
-use crate::state::*;
-use crate::instructions::errors::*;
+use crate::{Payment, PaymentError};
+
 
 #[derive(Accounts)]
+#[instruction(amount: u64, reference: Pubkey)]
 pub struct SendPayment<'info> {
     #[account(mut)]
     pub payer: Signer<'info>,
