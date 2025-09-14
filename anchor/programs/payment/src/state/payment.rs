@@ -9,6 +9,7 @@ pub struct Payment {
     pub reference: Pubkey,
     pub timestamp: i64,
     pub claimed: bool,
+    pub refunded: bool,
 }
 
 impl Payment {

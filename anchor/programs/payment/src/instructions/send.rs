@@ -1,7 +1,8 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 use anchor_spl::token::{self, Token, TokenAccount, Mint, Transfer as SplTransfer};
-use crate::{Payment, PaymentError};
+use crate::instructions::errors::*;
+use crate::state::Payment; 
 
 
 #[derive(Accounts)]

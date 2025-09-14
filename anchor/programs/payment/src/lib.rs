@@ -18,4 +18,9 @@ pub mod payment {
         ctx.accounts.process(amount, reference, is_token_payment)?;
         Ok(())
     }
+
+    pub fn refund_payment(ctx: Context<RefundPayment>, amount: u64, reference: Pubkey, is_token_payment: bool) -> Result<()> {
+        let mut refund_ctx = ctx.accounts;
+        refund_ctx.process(amount, reference, is_token_payment)
+    }
 }
